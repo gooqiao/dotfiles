@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-mkdir -p ~/.ShadowsocksX-NG
-cp ./Shadowsocks/user-rule.txt ~/.ShadowsocksX-NG/
+# mkdir -p ~/.ShadowsocksX-NG
+# cp ./Shadowsocks/user-rule.txt ~/.ShadowsocksX-NG/
