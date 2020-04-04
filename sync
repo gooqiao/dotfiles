@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cp_file=cp-p
+cp_file=transform-cp
 rm ./$cp_file
 
 echo '#!/usr/bin/env bash' >> $cp_file
@@ -12,7 +12,6 @@ array_file=(
 )
 for FILE in ${array_file[@]}
 do
-    echo $FILE
     cat $FILE | grep "cp " | sed 's/cp/mcp/' >> $cp_file
 done
 

@@ -1,7 +1,0 @@
-tap "homebrew/cask"
-
-cask "charles"
-cask "zoomus"
-cask "postman"
-
-mas "Trello", id: 1278508951
