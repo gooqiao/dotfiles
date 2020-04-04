@@ -1,17 +1,11 @@
 [user]
-	name = David Zhang
-	email = crispgm@gmail.com
-[core]
-	ignorecase = false
-	editor = nvim
-[credential]
-	helper = osxkeychain
-[color]
-	ui = true
-[pull]
-	rebase = true
-[alias]
-	sf = "! git switch $(git branch | fzf)"
-	sc = "switch -c"
-[includeIf "gitdir:~/work/"]
-	path = ~/work/.gitconfig
+	name = mingpingfu
+	email = mingpingfu@example.com
+[rerere]
+	enabled = true
+[i18n]
+	commitencoding = utf-8
+[gui]
+	encoding = utf-8
+[i18n "commit"]
+	encoding = utf-8

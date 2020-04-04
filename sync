@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+cp_file=cp-p
+rm ./$cp_file
+
+echo '#!/usr/bin/env bash' >> $cp_file
+echo 'source ./cp' >> $cp_file
+
+array_file=(
+    ./bootstrap
+    ./Shadowsocks/init
+)
+for FILE in ${array_file[@]}
+do
+    echo $FILE
+    cat $FILE | grep "cp " | sed 's/cp/mcp/' >> $cp_file
+done
+
+echo 'echo complete' >> $cp_file
+
+chmod +x ./$cp_file
+
+./$cp_file

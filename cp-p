@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+source ./cp
+# mcp ./git/work.gitconfig ~/work/.gitconfig
+mcp ./git/global.gitconfig ~/.gitconfig
+mcp ./bash/.bashrc ~/.bashrc
+mcp ./bash/.bash_profile ~/.bash_profile
+# mcp ./zsh/crispy.zsh-theme ~/.oh-my-zsh/themes/
+mcp ./zsh/.zshrc ~/
+mcp ./Shadowsocks/user-rule.txt ~/.ShadowsocksX-NG/
+echo complete
