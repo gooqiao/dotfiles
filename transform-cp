@@ -6,6 +6,7 @@ mcp ./bash/.bashrc ~/.bashrc
 mcp ./bash/.bash_profile ~/.bash_profile
 # mcp ./zsh/robbyrussell.zsh-theme ~/.oh-my-zsh/themes/
 mcp ./zsh/.zshrc ~/
-mcp ./karabiner/karabiner.json ~/.config/karabiner/
+mcp ./vim/.vimrc ~/
 mcp ./Shadowsocks/user-rule.txt ~/.ShadowsocksX-NG/
-echo complete
+mcp ./karabiner/karabiner.json ~/.config/karabiner/
+echo Done.

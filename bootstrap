@@ -37,8 +37,8 @@ echo "Setup Git"
 cp ./git/global.gitconfig ~/.gitconfig
 
 echo "Setup Bash"
-cp ./bash/.bashrc ~/.bashrc
-cp ./bash/.bash_profile ~/.bash_profile
+# cp ./bash/.bashrc ~/.bashrc
+# cp ./bash/.bash_profile ~/.bash_profile
 
 echo "Setup Zsh"
 # sudo sh -c 'echo /usr/local/bin/zsh >> /etc/shells'
