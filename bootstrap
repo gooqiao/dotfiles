@@ -53,6 +53,9 @@ $(brew --prefix)/opt/fzf/install
 # echo "- neovim"
 # ./neovim/neovim
 
+echo "vim"
+cp ./vim/.vimrc ~/
+
 echo "Link editors"
 # mkdir -p ~/Applications/
 # sudo ln -s /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code /usr/local/bin/code

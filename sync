@@ -15,7 +15,7 @@ do
     cat $FILE | grep "cp " | sed 's/cp/mcp/' >> $cp_file
 done
 
-echo 'echo complete' >> $cp_file
+echo 'echo Done.' >> $cp_file
 
 chmod +x ./$cp_file
 
