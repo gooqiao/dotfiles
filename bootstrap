@@ -62,7 +62,9 @@ echo "Link editors"
 
 
 echo "Setup Shadowsocks"
-./Shadowsocks/init
+# ./Shadowsocks/init
+mkdir -p ~/.ShadowsocksX-NG
+cp ./Shadowsocks/user-rule.txt ~/.ShadowsocksX-NG/
 
 echo "karabiner"
 cp ./karabiner/karabiner.json ~/.config/karabiner/
